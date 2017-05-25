@@ -13,5 +13,5 @@ https://en.wikipedia.org/wiki/Minimax
 
 http://www-cs-faculty.stanford.edu/people/eroberts/courses/soco/projects/2003-04/intelligent-search/minimax.html
 
-# Animation on how MiniMax work
+# Animation on how MiniMax works
 [![Alt text](https://img.youtube.com/vi/zDskcx8FStA/0.jpg)](https://www.youtube.com/watch?v=zDskcx8FStA)
