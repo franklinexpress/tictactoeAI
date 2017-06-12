@@ -9,7 +9,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        //game loop
+        Game game = new Game(sc, new Board(1, 2));
 
     }
 

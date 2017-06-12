@@ -54,9 +54,9 @@ public class Board {
 
     public String getWinner() {
         if (hasPlayerWon(PLAYER_X)) {
-            return "Player X WINS!";
+            return "Player " + PLAYER_X + " WINS!";
         } else if (hasPlayerWon(PLAYER_O)) {
-            return "Player O WINS";
+            return "Player " + PLAYER_O + " WINS";
         } else {
             return "IT'S A DRAW";
         }
@@ -69,9 +69,9 @@ public class Board {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 if (board[i][j] == PLAYER_O) {
-                    System.out.print(" O ");
+                    System.out.print(PLAYER_O);
                 } else if (board[i][j] == PLAYER_X) {
-                    System.out.print(" X ");
+                    System.out.print(PLAYER_X);
                 } else {
                     System.out.print(" _ ");
                 }
