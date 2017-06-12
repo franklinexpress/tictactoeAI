@@ -52,7 +52,7 @@ public class Board {
     }
 
 
-    public String getWinner() {
+    public String getEndResult() {
         if (hasPlayerWon(PLAYER_X)) {
             return "Player " + PLAYER_X + " WINS!";
         } else if (hasPlayerWon(PLAYER_O)) {

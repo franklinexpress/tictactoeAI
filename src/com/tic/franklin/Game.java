@@ -61,7 +61,7 @@ public class Game {
                 System.out.println("Invalid Input");
             }
         }
-        System.out.println(board.getWinner());
+        System.out.println(board.getEndResult());
     }
 
 
