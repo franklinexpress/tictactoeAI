@@ -8,9 +8,9 @@ import java.util.Scanner;
 public class Game {
 
     Scanner sc;
-    Board board;
+    IBoard board;
 
-    public Game(Scanner scanner, Board board) {
+    public Game(Scanner scanner, IBoard board) {
         sc = scanner;
         this.board = board;
     }

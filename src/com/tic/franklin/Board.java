@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by franklin on 5/23/17.
  */
-public class Board {
+public class Board  implements  IBoard {
 
     public  static int PLAYER_X;
     public  static int PLAYER_O;
