@@ -11,11 +11,16 @@ import java.util.List;
  */
 public class Board {
 
-    public static final int PLAYER_X = 1;
-    public static final int PLAYER_O = 2;
+    public  static int PLAYER_X;
+    public  static int PLAYER_O;
 
 
     private int[][] board = new int[3][3];
+
+    public Board(int playerX, int playerY) {
+        PLAYER_X = playerX;
+        PLAYER_O = playerY;
+    }
 
 
     public boolean hasPlayerWon(int player) {
