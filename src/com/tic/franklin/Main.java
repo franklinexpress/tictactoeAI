@@ -11,10 +11,7 @@ public class Main {
 
         Game game = new Game(sc, new Board(1, 2));
 
+        game.start();
     }
-
-
-
-
 
 }

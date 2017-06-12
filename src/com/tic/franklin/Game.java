@@ -15,7 +15,7 @@ public class Game {
         this.board = board;
     }
 
-    public void gameLoop() {
+    public void start() {
         while (true) {
             System.out.println("\nPlay against the Computer (y/n) ? ");
 
@@ -71,8 +71,8 @@ public class Game {
 
         int x;
         int y;
-        String symbol = (player == Board.PLAYER_X ? "X" : "O");
-        System.out.print("\n Player " + symbol + " | Enter X Y values, space separated [0 - 2] -> ");
+       // String symbol = (player == Board.PLAYER_X ? "X" : "O");
+        System.out.print("\n Player " + player + " | Enter X Y values, space separated [0 - 2] -> ");
 
         x = sc.nextInt();
         y = sc.nextInt();
