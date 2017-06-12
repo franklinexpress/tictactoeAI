@@ -1,11 +1,11 @@
 # How to compile and run
 from terminal:
   
-  cd into src, then compile like with:
-    javac -cp . com/tic/franklin/*.java
+  cd into src, then compile with:
+    ``` javac -cp . com/tic/franklin/*.java ```
   
   then run with:
-    java -cp . com/tic/franklin/Main
+    ``` java -cp . com/tic/franklin/Main ```
 
 # tictactoeAI
 A Smart Tic Tac Toe game with Minimax AI
